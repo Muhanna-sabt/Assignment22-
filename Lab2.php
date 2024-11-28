@@ -25,7 +25,11 @@ if ($result === NULL) {
         <title>University of Bahrain Students Enrollment</title>
         <link rel="stylesheet" href="https://unpkg.com/pico.css">
         <style>
-        /*  simple custom styles */
+        @import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+        h1{
+            font-family: "Tiny5", serif;
+            font-style: normal;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -36,7 +40,7 @@ if ($result === NULL) {
             border: 1px solid #ccc;
         }
         th {
-            background-color: #f0f0f0;
+            background-color: slategrey ;
         }
         .table-container {
             overflow: auto; 
